@@ -10,7 +10,7 @@ jobs:
       - name: welcome message
         run: | 
           echo "My first Github actions job"
-          ls
+          ls -ltra
           cat README.md
 
       - name: Generate ASCII Artwork
